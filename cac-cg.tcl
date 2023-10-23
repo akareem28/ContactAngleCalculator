@@ -4,7 +4,7 @@
 #command example：cac all.psf all.dcd xz 900 1000 20 {index 58158 to 68936} 3 0.0324 0.1 3 0.5 0.5
 #command example：cac 10.xyz  10.xyz  xz 0 0 1 {index 60024 to 87023}  1 9.0  0.1  3  1.5  1.2
 
-set tcl_precision 7
+set tcl_precision 7 # changing precision from 6 to 7
 
 proc cac {file_1 file_2 type firstFrame lastFrame step dropletAtomRange atomNumberInMol \
           dropletMolNumDensity glRatio sphereFactor thicknessFactor sliceFactor} {
